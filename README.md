@@ -24,7 +24,8 @@ Step 6:
 Now iterate through the variable and increase the count: and print the count value
 
 PROGRAM:
-~ #Developed By:- sasi dharan 
+~~~
+ #Developed By:- sasi dharan 
 #Register number:-212221240049
 import sys
 count =0 
@@ -33,7 +34,7 @@ with open(sys.argv[1],'r') as  f:
       words = lines.split() 
       count+=len(words)
 print("Number of words in a file:",count)
-~
+~~~
 ### OUTPUT:
 ![OUTPUT](1.png)
 
